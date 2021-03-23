@@ -1,2 +1,2 @@
-# LandmarkDemo
-A Demo for learning iOS Development
+# iOS_LMsChoreography
+iOS App for LM Sport
