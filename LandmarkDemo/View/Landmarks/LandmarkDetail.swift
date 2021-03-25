@@ -13,6 +13,10 @@ struct LandmarkDetail: View {
     
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+        /* Note:
+            $0.id 这里0表示传递给Swift闭包的第一个参数,是Swift语言的语法糖。
+            Swift会自动为内联闭包提供速记参数名称,可使用0,1,2等名称来引用闭包参数的值。
+         */
     }
     
     var body: some View {
